@@ -1,0 +1,699 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.0f1 (c7b5465681fb) revision 13088070'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 19042.928; Version 2009; 64bit' Language: 'ru' Physical Memory: 16272 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.0f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/Kiririn/Desktop/Project/HealthBar
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+57710
+Successfully changed project path to: C:/Users/Kiririn/Desktop/Project/HealthBar
+C:/Users/Kiririn/Desktop/Project/HealthBar
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 31.82 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.0f1 (c7b5465681fb)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.0f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Kiririn/Desktop/Project/HealthBar/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1660 Ti (ID=0x2182)
+    Vendor:   
+    VRAM:     5991 MB
+    Driver:   27.21.14.6589
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.0f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.0f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.0f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56180
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001401 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 32.07 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.848 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.000928 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 32.00 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.776 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.51 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1807 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 84.6 MB.
+System memory in use after: 84.6 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2250.
+Total: 4.025800 ms (FindLiveObjects: 0.319900 ms CreateObjectMapping: 0.157600 ms MarkObjects: 3.296700 ms  DeleteObjects: 0.249900 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Sprites/13-Dialogue Boxes/Dead Out (24x8).png
+  artifactKey: Guid(4fe5a012e6bb9c041a7ca2160bb78204) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/13-Dialogue Boxes/Dead Out (24x8).png using Guid(4fe5a012e6bb9c041a7ca2160bb78204) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcd80694c01cca593c232ae0e50decfe') in 0.159812 seconds
+  Import took 0.164053 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/Sprites/08-Box/Idle.png
+  artifactKey: Guid(d062619baa1685349afc2945ecad6eea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/08-Box/Idle.png using Guid(d062619baa1685349afc2945ecad6eea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1f91f556cee66444fdb6dad2e77b296') in 0.012123 seconds
+  Import took 0.014507 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000143 seconds.
+  path: Assets/Sprites/10-Cannon/Cannon Ball.png
+  artifactKey: Guid(1f4924b00f5ea644d9015c7cc94e239c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/10-Cannon/Cannon Ball.png using Guid(1f4924b00f5ea644d9015c7cc94e239c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03368ac277c98c9cd2a74344702059d6') in 0.015198 seconds
+  Import took 0.018786 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000322 seconds.
+  path: Assets/Sprites/11-Door/Opening (46x56).png
+  artifactKey: Guid(545d90114b5bc8845bb566483b7afb68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/11-Door/Opening (46x56).png using Guid(545d90114b5bc8845bb566483b7afb68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '074afaa51a9c0b2cb869e320d81d023a') in 0.016706 seconds
+  Import took 0.020149 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/Sprites/06-Pig Hide in the Box/Looking Out (26x20).png
+  artifactKey: Guid(58f1d2fefc17a104489881cec8584733) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/06-Pig Hide in the Box/Looking Out (26x20).png using Guid(58f1d2fefc17a104489881cec8584733) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d0af4ce79d922da1b607e3449cfb611') in 0.008239 seconds
+  Import took 0.010677 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/Sprites/09-Bomb/Boooooom (52x56).png
+  artifactKey: Guid(41df2c4059c78084c9581413ed5a45ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/09-Bomb/Boooooom (52x56).png using Guid(41df2c4059c78084c9581413ed5a45ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36aec123d9738df1d486ebccc249886a') in 0.009246 seconds
+  Import took 0.011719 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000145 seconds.
+  path: Assets/Sprites/05-Pig Thowing a Bomb/Run (26x26).png
+  artifactKey: Guid(fe5e8ec08d48b7d4993af23d002d84ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/05-Pig Thowing a Bomb/Run (26x26).png using Guid(fe5e8ec08d48b7d4993af23d002d84ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb3135cf6ec5c5188b8285dc9327e757') in 0.008687 seconds
+  Import took 0.011184 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/Sprites/13-Dialogue Boxes/Loser In (24x8).png
+  artifactKey: Guid(48b4885b569261042b95a1a2587e6225) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/13-Dialogue Boxes/Loser In (24x8).png using Guid(48b4885b569261042b95a1a2587e6225) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a75cf8cecbbf6ad83b24ce90664a6b3d') in 0.008839 seconds
+  Import took 0.011309 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000134 seconds.
+  path: Assets/Sprites/13-Dialogue Boxes/!!! Out (24x8).png
+  artifactKey: Guid(876b1411cc203b9458a50df2a955229a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/13-Dialogue Boxes/!!! Out (24x8).png using Guid(876b1411cc203b9458a50df2a955229a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24992b7fe11ef828020cb209d09cba13') in 0.008108 seconds
+  Import took 0.010549 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/Sprites/06-Pig Hide in the Box/Fall (26x20).png
+  artifactKey: Guid(86d107a2490d9e144b9f6dc880fa1e17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/06-Pig Hide in the Box/Fall (26x20).png using Guid(86d107a2490d9e144b9f6dc880fa1e17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72b57f962ba860d8e64c57d1e10b5c15') in 0.008128 seconds
+  Import took 0.010439 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000133 seconds.
+  path: Assets/Sprites/11-Door/Idle.png
+  artifactKey: Guid(66dadd1ce6d7dd344970a59a80dba50a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/11-Door/Idle.png using Guid(66dadd1ce6d7dd344970a59a80dba50a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '391388d9217b1f80bf287ec7dfd33aca') in 0.007947 seconds
+  Import took 0.010260 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000124 seconds.
+  path: Assets/Sprites/13-Dialogue Boxes/Boom In (24x8).png
+  artifactKey: Guid(c82be25c49ad19347a8a31adeba06fe8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/13-Dialogue Boxes/Boom In (24x8).png using Guid(c82be25c49ad19347a8a31adeba06fe8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8dbb89338e56509dafe538a00091d63') in 0.008733 seconds
+  Import took 0.011014 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000125 seconds.
+  path: Assets/Sprites/07-Pig With a Match/Match On (26x18).png
+  artifactKey: Guid(e7c31c57b8d3bbd4f8a74f63981d3e15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/07-Pig With a Match/Match On (26x18).png using Guid(e7c31c57b8d3bbd4f8a74f63981d3e15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77020b8afa6e2b4e0b75885b43c6e0f1') in 0.008549 seconds
+  Import took 0.010920 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000147 seconds.
+  path: Assets/Sprites/13-Dialogue Boxes/Hello In (24x8).png
+  artifactKey: Guid(0afe5f8a7a726244aba53b69d4749b13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/13-Dialogue Boxes/Hello In (24x8).png using Guid(0afe5f8a7a726244aba53b69d4749b13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5176f7d0feb58ad9a50c434b702806fe') in 0.007546 seconds
+  Import took 0.009840 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000134 seconds.
+  path: Assets/Sprites/03-Pig/Jump (34x28).png
+  artifactKey: Guid(660e65270dd0a5548a2dafb0f877e9b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/03-Pig/Jump (34x28).png using Guid(660e65270dd0a5548a2dafb0f877e9b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed983b6a5b410706c465dca95bf7cef7') in 0.008158 seconds
+  Import took 0.010449 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/Sprites/03-Pig/Run (34x28).png
+  artifactKey: Guid(d4101ea565d62db45bbb64eb805894c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/03-Pig/Run (34x28).png using Guid(d4101ea565d62db45bbb64eb805894c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31209605f7e3853f6405b10b4b19dbb3') in 0.008483 seconds
+  Import took 0.010760 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000135 seconds.
+  path: Assets/Sprites/09-Bomb/Bomb On (52x56).png
+  artifactKey: Guid(68fb1e82e02bb3d4ea0b32bb9568493b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/09-Bomb/Bomb On (52x56).png using Guid(68fb1e82e02bb3d4ea0b32bb9568493b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0aeeee388b850572f3333c7cf684dc8') in 0.008656 seconds
+  Import took 0.010969 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/Sprites/12-Live and Coins/Big Heart Idle (18x14).png
+  artifactKey: Guid(b32905ff2a4ad7844b15e5ad059b785e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/12-Live and Coins/Big Heart Idle (18x14).png using Guid(b32905ff2a4ad7844b15e5ad059b785e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c314b04135811e1bf9472d6cfe35d0c') in 0.007801 seconds
+  Import took 0.010060 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000146 seconds.
+  path: Assets/Sprites/12-Live and Coins/Small Heart Hit (18x14).png
+  artifactKey: Guid(73daced10f827aa40bbfbc24b1a652f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/12-Live and Coins/Small Heart Hit (18x14).png using Guid(73daced10f827aa40bbfbc24b1a652f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d892810f48859048d5a9ff579aa18e5') in 0.007783 seconds
+  Import took 0.010033 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/Sprites/06-Pig Hide in the Box/Jump (26x20).png
+  artifactKey: Guid(3a069c37904bfaa4f9cbe08c5abeb1a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/06-Pig Hide in the Box/Jump (26x20).png using Guid(3a069c37904bfaa4f9cbe08c5abeb1a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f611905da6481d65add2a6b3892c386d') in 0.007899 seconds
+  Import took 0.010251 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/Sprites/08-Box/Box Pieces 3.png
+  artifactKey: Guid(95c67ee8f648fd64293aceded681967a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/08-Box/Box Pieces 3.png using Guid(95c67ee8f648fd64293aceded681967a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62419b493ecb70f56d94ef7a9e868e5f') in 0.008227 seconds
+  Import took 0.010604 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000152 seconds.
+  path: Assets/Sprites/06-Pig Hide in the Box/Jump Anticipation (26x20).png
+  artifactKey: Guid(ab83c0368940b864a8c0f6ce9f14a818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/06-Pig Hide in the Box/Jump Anticipation (26x20).png using Guid(ab83c0368940b864a8c0f6ce9f14a818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7fd7772225b7bfb0dd055a7393d52ab') in 0.008174 seconds
+  Import took 0.010493 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/Sprites/12-Live and Coins/Small Diamond (18x14).png
+  artifactKey: Guid(a7bb210ac7af30f418000b6ca07440e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/12-Live and Coins/Small Diamond (18x14).png using Guid(a7bb210ac7af30f418000b6ca07440e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '210bead5c3f8c42c42dbc30312a13994') in 0.008525 seconds
+  Import took 0.010882 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/Sprites/03-Pig/Fall (34x28).png
+  artifactKey: Guid(9d8418ce50b7eb747819654134ef0214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/03-Pig/Fall (34x28).png using Guid(9d8418ce50b7eb747819654134ef0214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ffefeac60444aaba0436a3561e04713') in 0.008807 seconds
+  Import took 0.011203 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000145 seconds.
+  path: Assets/Sprites/04-Pig Throwing a Box/Idle (26x30).png
+  artifactKey: Guid(d60a6d256c7a3a14491ec7400773eb67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/04-Pig Throwing a Box/Idle (26x30).png using Guid(d60a6d256c7a3a14491ec7400773eb67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0854d3fcaf57555fc21bbfbc5a5e55fc') in 0.010507 seconds
+  Import took 0.012915 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000142 seconds.
+  path: Assets/Sprites/10-Cannon/Idle.png
+  artifactKey: Guid(0a6b94cab135f8742a4fae50d4d3a7ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/10-Cannon/Idle.png using Guid(0a6b94cab135f8742a4fae50d4d3a7ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '827308da13d6d2c8deca16a299eea9c9') in 0.007360 seconds
+  Import took 0.009770 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000148 seconds.
+  path: Assets/Sprites/02-King Pig/Jump (38x28).png
+  artifactKey: Guid(f22611471d94f3b45ab959bdd6dbb415) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/02-King Pig/Jump (38x28).png using Guid(f22611471d94f3b45ab959bdd6dbb415) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cef1af78ab6be5a498b24dfed2d0490d') in 0.013063 seconds
+  Import took 0.015359 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/Sprites/13-Dialogue Boxes/Hi In (24x8).png
+  artifactKey: Guid(7b1b957ab7f21cf49a134420969d9dc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/13-Dialogue Boxes/Hi In (24x8).png using Guid(7b1b957ab7f21cf49a134420969d9dc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bd85ebda5737ebe5ed9158668ba2a06') in 0.017266 seconds
+  Import took 0.019573 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/Sprites/12-Live and Coins/Small Heart Idle (18x14).png
+  artifactKey: Guid(ac44f415d2fa4124ab10bb4cfc65bf76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/12-Live and Coins/Small Heart Idle (18x14).png using Guid(ac44f415d2fa4124ab10bb4cfc65bf76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fa0d96d4ff191b1bbeadd4d56979954') in 0.009913 seconds
+  Import took 0.012241 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/Sprites/08-Box/Box Pieces 4.png
+  artifactKey: Guid(0dd046b863f0d40439d4c772b8cec52a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/08-Box/Box Pieces 4.png using Guid(0dd046b863f0d40439d4c772b8cec52a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28502e1e339a9e6bb575e7c7b5e11bb6') in 0.008617 seconds
+  Import took 0.010925 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/Sprites/09-Bomb/Bomb Off.png
+  artifactKey: Guid(b6b4dbe5ad4671948acd1e9cc2725b63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/09-Bomb/Bomb Off.png using Guid(b6b4dbe5ad4671948acd1e9cc2725b63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cce7f777bad1b69ebeaaff239c7c13b8') in 0.009760 seconds
+  Import took 0.012059 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/Sprites/12-Live and Coins/Big Diamond Idle (18x14).png
+  artifactKey: Guid(ce890a09fdb27e14cb1f7d3cda40c4a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/12-Live and Coins/Big Diamond Idle (18x14).png using Guid(ce890a09fdb27e14cb1f7d3cda40c4a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffa889cb9c05bc15923fb8c02eabcece') in 0.008720 seconds
+  Import took 0.011128 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/Sprites/03-Pig/Dead (34x28).png
+  artifactKey: Guid(93d77b90c1e5a8449b331c4826bd2854) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/03-Pig/Dead (34x28).png using Guid(93d77b90c1e5a8449b331c4826bd2854) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51bfc59651dccc2066c507b4d30db065') in 0.011489 seconds
+  Import took 0.013879 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/Sprites/07-Pig With a Match/Lighting the Match (26x18).png
+  artifactKey: Guid(6c7c6a497b83d9341bc91a50fe4d8f66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/07-Pig With a Match/Lighting the Match (26x18).png using Guid(6c7c6a497b83d9341bc91a50fe4d8f66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae3d50b9dea7b3441baceb3409381bfb') in 0.008420 seconds
+  Import took 0.010739 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/Sprites/02-King Pig/Dead (38x28).png
+  artifactKey: Guid(06fb557d667cbfd49bf696d6a4313179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/02-King Pig/Dead (38x28).png using Guid(06fb557d667cbfd49bf696d6a4313179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea8762551827759acfd7e2aec1f37c44') in 0.010315 seconds
+  Import took 0.012641 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000174 seconds.
+  path: Assets/Sprites/04-Pig Throwing a Box/Picking Box (26x30).png
+  artifactKey: Guid(f03e05856dd74e244aae8670f863a3da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/04-Pig Throwing a Box/Picking Box (26x30).png using Guid(f03e05856dd74e244aae8670f863a3da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '707f3cc287d57a4ecc180fcb87704bcb') in 0.020420 seconds
+  Import took 0.022731 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/Sprites/13-Dialogue Boxes/WTF Out (24x8).png
+  artifactKey: Guid(98fad39dbb516d943bad5311047eab1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/13-Dialogue Boxes/WTF Out (24x8).png using Guid(98fad39dbb516d943bad5311047eab1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1c5a3375397d558bd9209ad3f8eee39') in 0.008417 seconds
+  Import took 0.010932 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/Sprites/12-Live and Coins/Big Diamond Hit (18x14).png
+  artifactKey: Guid(12c06e4a73192a3478345eb12e9c9405) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/12-Live and Coins/Big Diamond Hit (18x14).png using Guid(12c06e4a73192a3478345eb12e9c9405) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02b835773bc218208406fc9ab7120f99') in 0.008413 seconds
+  Import took 0.010793 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/Sprites/13-Dialogue Boxes/Dead In (24x8).png
+  artifactKey: Guid(aeea5d7d3073ac6408839ce35ebf518f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/13-Dialogue Boxes/Dead In (24x8).png using Guid(aeea5d7d3073ac6408839ce35ebf518f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15f90719b8a0432cb7f214e0411850f1') in 0.012647 seconds
+  Import took 0.015227 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/Sprites/12-Live and Coins/Big Heart Hit (18x14).png
+  artifactKey: Guid(0e26699fc6315b2459253d805401f35a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/12-Live and Coins/Big Heart Hit (18x14).png using Guid(0e26699fc6315b2459253d805401f35a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '181c4d703f7e3298fc342d5657dc6c85') in 0.008547 seconds
+  Import took 0.010869 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/Sprites/13-Dialogue Boxes/Interrogation In (24x8).png
+  artifactKey: Guid(46228ac1c837577449ea63e17642f44c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/13-Dialogue Boxes/Interrogation In (24x8).png using Guid(46228ac1c837577449ea63e17642f44c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95867f432c1b9050368ded2d3c4f29dd') in 0.008310 seconds
+  Import took 0.010637 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/Sprites/13-Dialogue Boxes/Boom Out (24x8).png
+  artifactKey: Guid(e7f39f0ad372f15419d91e93d23e120b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/13-Dialogue Boxes/Boom Out (24x8).png using Guid(e7f39f0ad372f15419d91e93d23e120b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fba9c859b64ad2b6b18bafe683e1556f') in 0.009871 seconds
+  Import took 0.012342 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/Sprites/13-Dialogue Boxes/Hi Out (24x8).png
+  artifactKey: Guid(f4c1d41b7de840a4ab201ab07b2ba81e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/13-Dialogue Boxes/Hi Out (24x8).png using Guid(f4c1d41b7de840a4ab201ab07b2ba81e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f31b800dcded23f68183e66cdc129a21') in 0.012318 seconds
+  Import took 0.014659 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000174 seconds.
+  path: Assets/Sprites/12-Live and Coins/Numbers (6x8).png
+  artifactKey: Guid(9ac75d0034f292f4397de0b6955d9926) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/12-Live and Coins/Numbers (6x8).png using Guid(9ac75d0034f292f4397de0b6955d9926) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ade111fda8855587488311aeeb6418b4') in 0.009507 seconds
+  Import took 0.011819 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000136 seconds.
+  path: Assets/Sprites/06-Pig Hide in the Box/Ground (26x20).png
+  artifactKey: Guid(3c39dc966edbf664e80fbe945d6a2d24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/06-Pig Hide in the Box/Ground (26x20).png using Guid(3c39dc966edbf664e80fbe945d6a2d24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb39f0fb728972581125fe2dd1bece41') in 0.008117 seconds
+  Import took 0.010388 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/Sprites/13-Dialogue Boxes/Hello Out (24x8).png
+  artifactKey: Guid(402d95e49b16ccb49ac41c5edd20729b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/13-Dialogue Boxes/Hello Out (24x8).png using Guid(402d95e49b16ccb49ac41c5edd20729b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '547b8ad567c0d79039e1e2cf4d157f7f') in 0.008920 seconds
+  Import took 0.011339 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/Sprites/03-Pig/Idle (34x28).png
+  artifactKey: Guid(95bcfe3bc03255d4da23137f2ce7b83c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/03-Pig/Idle (34x28).png using Guid(95bcfe3bc03255d4da23137f2ce7b83c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8efa75d56c7c7573d53aef142dffb5e9') in 0.008786 seconds
+  Import took 0.011131 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/Sprites/04-Pig Throwing a Box/Run (26x30).png
+  artifactKey: Guid(84db855b9432e0c4bb63ac530d96d439) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/04-Pig Throwing a Box/Run (26x30).png using Guid(84db855b9432e0c4bb63ac530d96d439) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9dfa7c68a81d3f127ee74736ddf2c246') in 0.010585 seconds
+  Import took 0.012905 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000149 seconds.
+  path: Assets/Sprites/02-King Pig/Idle (38x28).png
+  artifactKey: Guid(f0ad0acfd8e47ef4ea0466a1bff8b6cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/02-King Pig/Idle (38x28).png using Guid(f0ad0acfd8e47ef4ea0466a1bff8b6cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2f671fde6585767a8e339a18e7ab127') in 0.009841 seconds
+  Import took 0.012164 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/Sprites/13-Dialogue Boxes/Loser Out (24x8).png
+  artifactKey: Guid(c5c1e1a224cd6e9488f5469773f76d0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/13-Dialogue Boxes/Loser Out (24x8).png using Guid(c5c1e1a224cd6e9488f5469773f76d0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66ca6e5963cc32dd4bbeac92b5ec2977') in 0.010137 seconds
+  Import took 0.012539 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000134 seconds.
+  path: Assets/Sprites/14-TileSets/Terrain (32x32).png
+  artifactKey: Guid(950133699b2c9c547890362fb26b1da7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/14-TileSets/Terrain (32x32).png using Guid(950133699b2c9c547890362fb26b1da7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3b9004744bc2c3cbd43ea8e1722bccf') in 0.013762 seconds
+  Import took 0.016066 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/Sprites/08-Box/Box Pieces 1.png
+  artifactKey: Guid(4f6bb26d1a62a7548b1fb20ed8ea671b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/08-Box/Box Pieces 1.png using Guid(4f6bb26d1a62a7548b1fb20ed8ea671b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a883b7c3468af59c3e51b35d7f59279a') in 0.007409 seconds
+  Import took 0.009690 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/Sprites/02-King Pig/Ground (38x28).png
+  artifactKey: Guid(18dc906f9ce7e0a45b570f7e53d4953e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/02-King Pig/Ground (38x28).png using Guid(18dc906f9ce7e0a45b570f7e53d4953e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f01f6a522c79631eb2b297f0958f11a') in 0.007318 seconds
+  Import took 0.009595 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/Sprites/13-Dialogue Boxes/!!! In (24x8).png
+  artifactKey: Guid(232ff1f66d6bc3f4fb20a02e8734f871) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/13-Dialogue Boxes/!!! In (24x8).png using Guid(232ff1f66d6bc3f4fb20a02e8734f871) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ebf33c5b0158dca29f1a9250909c3da') in 0.007639 seconds
+  Import took 0.009910 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/Sprites/07-Pig With a Match/Lighting the Cannon (26x18).png
+  artifactKey: Guid(d6958272facc24f4b95739f3d9277b10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/07-Pig With a Match/Lighting the Cannon (26x18).png using Guid(d6958272facc24f4b95739f3d9277b10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34620b48aebf2efbd14db50c6873e346') in 0.008056 seconds
+  Import took 0.010445 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000137 seconds.
+  path: Assets/Sprites/10-Cannon/Shoot (44x28).png
+  artifactKey: Guid(7c62d2258cab711448078a1430f3b2bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/10-Cannon/Shoot (44x28).png using Guid(7c62d2258cab711448078a1430f3b2bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '674d3442f220d8384a1b0ba03c391a35') in 0.009017 seconds
+  Import took 0.011505 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000149 seconds.
+  path: Assets/Sprites/05-Pig Thowing a Bomb/Throwing Boom (26x26).png
+  artifactKey: Guid(5a34da75d04f23b4d9098fa16205e2d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/05-Pig Thowing a Bomb/Throwing Boom (26x26).png using Guid(5a34da75d04f23b4d9098fa16205e2d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73eb10e5d2610f820bf5ec46579c0257') in 0.013165 seconds
+  Import took 0.015520 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/Sprites/13-Dialogue Boxes/Attack In (24x8).png
+  artifactKey: Guid(1ed549fad69c4fc42a31f6fd6fc1e935) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/13-Dialogue Boxes/Attack In (24x8).png using Guid(1ed549fad69c4fc42a31f6fd6fc1e935) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70d8e9b2a29ec75e783fd636122ac26b') in 0.010875 seconds
+  Import took 0.013266 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/Sprites/05-Pig Thowing a Bomb/Idle (26x26).png
+  artifactKey: Guid(83b902cd3769ef344b318874242e78b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/05-Pig Thowing a Bomb/Idle (26x26).png using Guid(83b902cd3769ef344b318874242e78b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6ecb5fa13707e93013b7a02a3909aac') in 0.011041 seconds
+  Import took 0.013450 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/Sprites/12-Live and Coins/Live Bar.png
+  artifactKey: Guid(69258747d26085e438916631c87cfc94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/12-Live and Coins/Live Bar.png using Guid(69258747d26085e438916631c87cfc94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eeff775bcfd11311f2b5e1f4945db84a') in 0.009065 seconds
+  Import took 0.011463 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/Sprites/08-Box/Hit.png
+  artifactKey: Guid(51a33f146e3f1644b886e1d02c73da6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/08-Box/Hit.png using Guid(51a33f146e3f1644b886e1d02c73da6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38502df7144f4e1f6836fe35198d4c28') in 0.008271 seconds
+  Import took 0.010622 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000116 seconds.
+  path: Assets/Sprites/04-Pig Throwing a Box/Throwing Box (26x30).png
+  artifactKey: Guid(dd54d4fb11c80604e926efffadcf21b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/04-Pig Throwing a Box/Throwing Box (26x30).png using Guid(dd54d4fb11c80604e926efffadcf21b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26bd8c812f5b83cd9083e187385787ca') in 0.013838 seconds
+  Import took 0.016148 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/Sprites/13-Dialogue Boxes/WTF In (24x8).png
+  artifactKey: Guid(d6916294c4a3c7d47b50a967387cfe2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/13-Dialogue Boxes/WTF In (24x8).png using Guid(d6916294c4a3c7d47b50a967387cfe2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db87105ffffe3f12f19ba53c3ec14caa') in 0.008636 seconds
+  Import took 0.010955 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/Sprites/03-Pig/Ground (34x28).png
+  artifactKey: Guid(27f84549205dd7945886fc5be8f97d1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/03-Pig/Ground (34x28).png using Guid(27f84549205dd7945886fc5be8f97d1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7636d75bb82fe7a2fbac070642a9bf8') in 0.011842 seconds
+  Import took 0.014624 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000148 seconds.
+  path: Assets/Sprites/14-TileSets/Decorations (32x32).png
+  artifactKey: Guid(43bfe1d4fcb8f2f45a911d90832c0af9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/14-TileSets/Decorations (32x32).png using Guid(43bfe1d4fcb8f2f45a911d90832c0af9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e4b517bd02f89225f3d1f1db09bc7ce') in 0.012224 seconds
+  Import took 0.015203 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/Sprites/02-King Pig/Attack (38x28).png
+  artifactKey: Guid(c77e0347dae9d8042b3bb2e73352f716) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/02-King Pig/Attack (38x28).png using Guid(c77e0347dae9d8042b3bb2e73352f716) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de7315636ea39d16983ab2ab3b21ab0e') in 0.012106 seconds
+  Import took 0.014531 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/Sprites/13-Dialogue Boxes/No In (24x8).png
+  artifactKey: Guid(ec88ddad5cc34a44995de4e2693ae7c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/13-Dialogue Boxes/No In (24x8).png using Guid(ec88ddad5cc34a44995de4e2693ae7c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9838fedf52c61a34d62e8aa2b4eaef9') in 0.010571 seconds
+  Import took 0.013230 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/Sprites/13-Dialogue Boxes/Interrogation Out (24x8).png
+  artifactKey: Guid(51b6fbc6cf731de41991576c56260e18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/13-Dialogue Boxes/Interrogation Out (24x8).png using Guid(51b6fbc6cf731de41991576c56260e18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'feba5dce79579f70b157e94f6a369fe5') in 0.013037 seconds
+  Import took 0.015549 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/Sprites/03-Pig/Attack (34x28).png
+  artifactKey: Guid(1bede8ce00243c74e9071a62fc6dad03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/03-Pig/Attack (34x28).png using Guid(1bede8ce00243c74e9071a62fc6dad03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d45c06f240035f01a55e4759971cded') in 0.012306 seconds
+  Import took 0.014670 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/Sprites/13-Dialogue Boxes/No Out (24x8).png
+  artifactKey: Guid(67a69ee3eb39e7e4d8f1c79cfe8ec2bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/13-Dialogue Boxes/No Out (24x8).png using Guid(67a69ee3eb39e7e4d8f1c79cfe8ec2bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3806e58b75b5537bc63360f70bd97292') in 0.011987 seconds
+  Import took 0.014803 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000141 seconds.
+  path: Assets/Sprites/02-King Pig/Run (38x28).png
+  artifactKey: Guid(8a68df440c23c9d49bb1b38ba9ad36d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/02-King Pig/Run (38x28).png using Guid(8a68df440c23c9d49bb1b38ba9ad36d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '517b0690b8e6107f8dc7c43b911810ca') in 0.015709 seconds
+  Import took 0.018398 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000126 seconds.
+  path: Assets/Sprites/05-Pig Thowing a Bomb/Picking Bomb (26x26).png
+  artifactKey: Guid(60fab7fbc8cdde84b8ad0a1132d197e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/05-Pig Thowing a Bomb/Picking Bomb (26x26).png using Guid(60fab7fbc8cdde84b8ad0a1132d197e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2210359b779eb80c7cdea63dca7a983') in 0.013518 seconds
+  Import took 0.016258 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/Sprites/13-Dialogue Boxes/Attack Out (24x8).png
+  artifactKey: Guid(8149a3b1558f747499e9678d5b89f8e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/13-Dialogue Boxes/Attack Out (24x8).png using Guid(8149a3b1558f747499e9678d5b89f8e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a44ae324bfc190f7e61138aba9f84c8') in 0.012423 seconds
+  Import took 0.015063 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000126 seconds.
+  path: Assets/Sprites/11-Door/Closiong (46x56).png
+  artifactKey: Guid(9d5e323d39cce0340a2058679b87ffc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/11-Door/Closiong (46x56).png using Guid(9d5e323d39cce0340a2058679b87ffc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '047705ed8944553b685372dfd1edac4c') in 0.012568 seconds
+  Import took 0.015340 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000123 seconds.
+  path: Assets/Sprites/02-King Pig/Hit (38x28).png
+  artifactKey: Guid(f2b176831f27c674ab4268cd42db3015) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/02-King Pig/Hit (38x28).png using Guid(f2b176831f27c674ab4268cd42db3015) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b625519c7681c1ffa3a8f9559de862a8') in 0.013757 seconds
+  Import took 0.016425 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/Sprites/02-King Pig/Fall (38x28).png
+  artifactKey: Guid(6fb469ad8783af547ab944d22fcdf06a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/02-King Pig/Fall (38x28).png using Guid(6fb469ad8783af547ab944d22fcdf06a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42f8eece310033f9d477156f80d61f37') in 0.010073 seconds
+  Import took 0.012437 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/Sprites/08-Box/Box Pieces 2.png
+  artifactKey: Guid(5a084952a2239e7459927a295263e40e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/08-Box/Box Pieces 2.png using Guid(5a084952a2239e7459927a295263e40e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f1aeb3e43b6c03477df60b1b42a08f1') in 0.008713 seconds
+  Import took 0.011234 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/Sprites/03-Pig/Hit (34x28).png
+  artifactKey: Guid(427ce750499a4c64c8bc245a37519a3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/03-Pig/Hit (34x28).png using Guid(427ce750499a4c64c8bc245a37519a3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a0e214935ede9c362863f687946d71c') in 0.009308 seconds
+  Import took 0.011772 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
