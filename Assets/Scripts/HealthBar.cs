@@ -29,9 +29,4 @@ public class HealthBar : MonoBehaviour
         _image.color = _gradient.Evaluate(_slider.normalizedValue);
         
     }
-    public void GetHealth(int value)
-    {
-        _slider.value += value;
-        _image.color = _gradient.Evaluate(_slider.normalizedValue);
-    }
 }
