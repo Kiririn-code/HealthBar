@@ -9,7 +9,7 @@ public class HealthBar : MonoBehaviour
     [SerializeField] private Gradient _gradient;
     [SerializeField] private Image _image;
 
-    private Slider _slider;
+    [SerializeField] private Slider _slider;
 
     private void Awake()
     {
@@ -23,9 +23,9 @@ public class HealthBar : MonoBehaviour
         _slider.value = _slider.maxValue;
     }
 
-    public void GetDamage(int value)
+    public void ShowHealth(int value)
     {
-        _slider.value -= value;
+        _slider.value = value;
         _image.color = _gradient.Evaluate(_slider.normalizedValue);
         
     }
