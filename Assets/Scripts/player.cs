@@ -3,17 +3,15 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 
-public class player : MonoBehaviour
+public class Player : MonoBehaviour
 {
     [SerializeField] private int _maxHealth;
-    [SerializeField] private HealthBar _bar;
 
     private int _currentHealth;
 
     private void Awake()
     {
         _currentHealth = _maxHealth;
-        _bar.SetMaxValue(_currentHealth);
     }
 
     public void GetDamage(int damage)
@@ -25,9 +23,9 @@ public class player : MonoBehaviour
     {
         _currentHealth += health;
     }
-
-    private void Update()
+    public int GetMaxHealth()
     {
-        _bar.ShowHealth(_currentHealth);
+        return _maxHealth;
     }
+    public int GetHealth() => _currentHealth;
 }

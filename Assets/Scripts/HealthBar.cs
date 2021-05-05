@@ -8,24 +8,25 @@ public class HealthBar : MonoBehaviour
 {
     [SerializeField] private Gradient _gradient;
     [SerializeField] private Image _image;
-
     [SerializeField] private Slider _slider;
+    [SerializeField] private Player _player;
 
     private void Awake()
     {
+        _slider.maxValue = _player.GetMaxHealth();
        _slider = GetComponent<Slider>();
        _image.color= _gradient.Evaluate(1f);
     }
 
-    public void SetMaxValue(int maxValue)
+    public void Start()
     {
-        _slider.maxValue = maxValue;
+        _slider.maxValue = _player.GetHealth();
         _slider.value = _slider.maxValue;
     }
 
-    public void ShowHealth(int value)
+    public void Update()
     {
-        _slider.value = value;
+        _slider.value = _player.GetHealth();
         _image.color = _gradient.Evaluate(_slider.normalizedValue);
         
     }
