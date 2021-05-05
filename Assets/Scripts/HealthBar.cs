@@ -13,8 +13,7 @@ public class HealthBar : MonoBehaviour
 
     private void Awake()
     {
-        _slider.maxValue = _player.GetMaxHealth();
-       _slider = GetComponent<Slider>();
+       _slider.maxValue = _player.GetMaxHealth();
        _image.color= _gradient.Evaluate(1f);
     }
 
@@ -26,8 +25,7 @@ public class HealthBar : MonoBehaviour
 
     public void Update()
     {
-        _slider.value = _player.GetHealth();
+        _slider.value = Mathf.Lerp(_slider.value, (float)_player.GetHealth(), 0.005f);
         _image.color = _gradient.Evaluate(_slider.normalizedValue);
-        
     }
 }
