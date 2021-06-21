@@ -5,27 +5,24 @@ using UnityEngine.Events;
 
 public class Player : MonoBehaviour
 {
-    [SerializeField] private int _maxHealth;
+    [SerializeField] private int MaxHealth;
 
     private int _currentHealth;
 
+    public int CurrecntHealth { get { return _currentHealth; } private set { _currentHealth = value; } }
+
     private void Awake()
     {
-        _currentHealth = _maxHealth;
+        CurrecntHealth = MaxHealth;
     }
 
     public void GetDamage(int damage)
     {
-        _currentHealth -= damage;
+        CurrecntHealth -= damage;
     }
 
     public void GetHealth(int health)
     {
-        _currentHealth += health;
+        CurrecntHealth += health;
     }
-    public int GetMaxHealth()
-    {
-        return _maxHealth;
-    }
-    public int GetHealth() => _currentHealth;
 }

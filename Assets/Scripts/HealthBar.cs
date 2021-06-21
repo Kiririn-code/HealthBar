@@ -11,21 +11,17 @@ public class HealthBar : MonoBehaviour
     [SerializeField] private Slider _slider;
     [SerializeField] private Player _player;
 
-    private void Awake()
-    {
-       _slider.maxValue = _player.GetMaxHealth();
-       _image.color= _gradient.Evaluate(1f);
-    }
+    private float _stepSize = 0.1f;
 
     public void Start()
     {
-        _slider.maxValue = _player.GetHealth();
+        _slider.maxValue = _player.CurrecntHealth;
         _slider.value = _slider.maxValue;
     }
 
     public void Update()
     {
-        _slider.value = Mathf.Lerp(_slider.value, (float)_player.GetHealth(), 0.005f);
+        _slider.value = Mathf.Lerp(_slider.value, (float)_player.CurrecntHealth, _stepSize);
         _image.color = _gradient.Evaluate(_slider.normalizedValue);
     }
 }
