@@ -11,7 +11,7 @@ public class HealthBar : MonoBehaviour
     [SerializeField] private Slider _slider;
     [SerializeField] private Player _player;
 
-    private float _stepSize = 0.01f;
+    private float _stepSize = 2f;
 
 
     public void Start()
@@ -23,7 +23,7 @@ public class HealthBar : MonoBehaviour
     public void Update()
     {
 
-        _slider.value = Mathf.Lerp(_slider.value, (float)_player.CurrecntHealth, _stepSize);
+        _slider.value = Mathf.Lerp(_slider.value, (float)_player.CurrecntHealth, _stepSize * Time.deltaTime);
         _image.color = _gradient.Evaluate(_slider.normalizedValue);
     }
 }
