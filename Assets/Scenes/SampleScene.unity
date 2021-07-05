@@ -1288,7 +1288,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c4d7f9e0663beed4d84f107b5d7c333a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MaxHealth: 0
+  _maxHealth: 0
 --- !u!4 &1174033280
 Transform:
   m_ObjectHideFlags: 0
@@ -1786,7 +1786,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c4d7f9e0663beed4d84f107b5d7c333a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MaxHealth: 100
+  _maxHealth: 100
 --- !u!114 &1821450105
 MonoBehaviour:
   m_ObjectHideFlags: 0
