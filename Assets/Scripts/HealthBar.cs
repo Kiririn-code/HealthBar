@@ -16,12 +16,12 @@ public class HealthBar : MonoBehaviour
 
     private void OnEnable()
     {
-        _player.HealthChanged += RunCoroutine;
+        _player.HealthChanged += OnHealthCheanged;
     }
 
     private void OnDisable()
     {
-        _player.HealthChanged -= RunCoroutine;
+        _player.HealthChanged -= OnHealthCheanged;
     }
 
     public void Start()
@@ -31,7 +31,7 @@ public class HealthBar : MonoBehaviour
         _image.color = _gradient.Evaluate(_slider.normalizedValue);
     }
 
-    private void RunCoroutine(int health)
+    private void OnHealthCheanged(int health)
     {
         if (_StartChangeValue != null)
             StopCoroutine(_StartChangeValue);
